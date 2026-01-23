@@ -1,0 +1,57 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Home",
+            "request": "launch",
+            "mainClass": "Home",
+            "projectName": "TapNpay application_16a67865"
+        },
+        {
+            "type": "java",
+            "name": "tapNpay",
+            "request": "launch",
+            "mainClass": "tapNpay",
+            "projectName": "TapNpay application_16a67865"
+        },
+        {
+            "type": "java",
+            "name": "TapNpay",
+            "request": "launch",
+            "mainClass": "TapNpay",
+            "projectName": "TapNpay application_16a67865"
+        },
+        {
+            "type": "java",
+            "name": "Home",
+            "request": "launch",
+            "mainClass": "tapNpay.Home",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TapNpay",
+            "request": "launch",
+            "mainClass": "tapNpay.TapNpay",
+            "projectName": "",
+            "classPaths": [
+                "${workspaceFolder}",
+                "${workspaceFolder}\\lib\\mysql-connector-j-8.0.33.jar"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Run TapNpay",
+            "request": "launch",
+            "mainClass": "tapNpay.TapNpay",
+            "projectName": "TapNpay application",
+            "cwd": "${workspaceFolder}",
+            "classPaths": [
+                "${workspaceFolder}",
+                "${workspaceFolder}\\lib\\mysql-connector-j-8.0.33.jar"
+            ]
+        }
+    ]
+}
+
