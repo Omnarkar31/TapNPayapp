@@ -1,2 +1,2 @@
 # TapNPayapp
-java TapNPay project  SE-IT-SEM 3 
+java TapNPay Project  SE-IT-SEM 3 
