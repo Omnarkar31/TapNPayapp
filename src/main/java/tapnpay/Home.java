@@ -1,4 +1,4 @@
-//package tapnpay;
+
 
 import java.awt.*;
 import java.sql.*;
@@ -289,7 +289,7 @@ public class Home extends javax.swing.JFrame {
     private void loadUserData() {
         String url = "jdbc:mysql://localhost:3306/tapnpay5";
         String dbUser = "root";
-        String dbPassword = "";
+        String dbPassword = "";  // Change this to your MySQL root password if set
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -382,7 +382,7 @@ public class Home extends javax.swing.JFrame {
     private void updatePhoneNumber(String phoneNumber) {
         String url = "jdbc:mysql://localhost:3306/tapnpay5";
         String dbUser = "root";
-        String dbPassword = "";
+        String dbPassword = "";  // Change this to your MySQL root password if set
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -429,7 +429,7 @@ public class Home extends javax.swing.JFrame {
     private void generateCardId() {
         String url = "jdbc:mysql://localhost:3306/tapnpay5";
         String dbUser = "root";
-        String dbPassword = "";
+        String dbPassword = "";  // Change this to your MySQL root password if set
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -591,7 +591,7 @@ public class Home extends javax.swing.JFrame {
                 // Add money to account
                 String url = "jdbc:mysql://localhost:3306/tapnpay5";
                 String dbUser = "root";
-                String dbPassword = "";
+                String dbPassword = "";  // Change this to your MySQL root password if set
                 
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 Connection conn = DriverManager.getConnection(url, dbUser, dbPassword);
